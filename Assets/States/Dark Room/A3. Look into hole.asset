@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed14862879c9db6458b2871b860dfa19, type: 3}
+  m_Name: A3. Look into hole
+  m_EditorClassIdentifier: 
+  storyText: 'You can slightly see two different colored objects inside of the hole.
+
+
+
+    Press 1 to grab the grey object.
+
+
+    Press 2 to grab the bronze colored object.'
+  nextStates:
+  - {fileID: 11400000, guid: ffdcec0cca38c3d42b5eb8260a193812, type: 2}
+  - {fileID: 11400000, guid: eb1a10392eb81eb48aef7d59452cb519, type: 2}
+  roomKey: 0
+  roomDoor: 0

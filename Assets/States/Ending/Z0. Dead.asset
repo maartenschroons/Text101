@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed14862879c9db6458b2871b860dfa19, type: 3}
+  m_Name: Z0. Dead
+  m_EditorClassIdentifier: 
+  storyText: 'Ded
+
+
+    Press 1 to play again!
+
+    Press 2 to go the main menu'
+  nextStates:
+  - {fileID: 11400000, guid: 3b7e4a62a372f624bbc0b88d5d6df3a9, type: 2}
+  - {fileID: 11400000, guid: 83fcccef43385c84abce071fd6e67694, type: 2}

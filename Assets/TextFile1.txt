@@ -1,0 +1,8 @@
+You wake up in a dark room.
+Something touches your leg as it runs around and then disappears.
+There is a small light coming from the keyhole in the door.
+
+What do you do?
+
+Press up to go in the direction the creature ran.
+Press down to check out the door.

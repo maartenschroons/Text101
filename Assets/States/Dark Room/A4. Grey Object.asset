@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed14862879c9db6458b2871b860dfa19, type: 3}
+  m_Name: A4. Grey Object
+  m_EditorClassIdentifier: 
+  storyText: 'You stick your hand into the hole and take the grey object.
+
+    You obtained a key! I wonder what it is used for...
+
+
+    You still see the bronze object inside of the hole.
+
+
+    Press 1 to take the bronze object.
+
+    Press 2 to go back to where you woke up.'
+  nextStates:
+  - {fileID: 11400000, guid: eb1a10392eb81eb48aef7d59452cb519, type: 2}
+  - {fileID: 11400000, guid: 3b7e4a62a372f624bbc0b88d5d6df3a9, type: 2}
+  roomKey: 1
+  roomDoor: 0

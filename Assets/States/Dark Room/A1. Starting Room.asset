@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed14862879c9db6458b2871b860dfa19, type: 3}
+  m_Name: A1. Starting Room
+  m_EditorClassIdentifier: 
+  storyText: "You wake up in a dark room.\r\nSomething touches your leg as it runs
+    around and then disappears.\r\nThere is a small light coming into the room.\r\n\r\nWhat
+    do you do?\r\n\r\n\nPress 1 to go in the direction the creature ran.\r\n\nPress
+    2 to check out the source of the light."
+  nextStates:
+  - {fileID: 11400000, guid: 7a19f670640753b4fb2739334ed29329, type: 2}
+  - {fileID: 11400000, guid: b6b87ec829162fd4da7497a20eefb4ef, type: 2}
+  roomKey: 0
+  roomDoor: 0

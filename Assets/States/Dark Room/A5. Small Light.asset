@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed14862879c9db6458b2871b860dfa19, type: 3}
+  m_Name: A5. Small Light
+  m_EditorClassIdentifier: 
+  storyText: 'As you move closer to the light, you notice it comes from a keyhole
+    in a door!
+
+    Thank god, it might be a way out!
+
+    the door looks very sturdy.
+
+
+    What do you do?
+
+
+    Press 1 to try and open it.
+
+    Press 2 to go back to where you woke up.'
+  nextStates:
+  - {fileID: 11400000, guid: 2641db889de61014e92ac53ad1aa4a36, type: 2}
+  - {fileID: 11400000, guid: 3b7e4a62a372f624bbc0b88d5d6df3a9, type: 2}
+  - {fileID: 11400000, guid: 6124c278b6f5df149bec9bbd9353ff90, type: 2}
+  roomKey: 0
+  roomDoor: 1
